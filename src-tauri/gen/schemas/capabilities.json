@@ -1,0 +1,1 @@
+{"main":{"identifier":"main","description":"Fenêtre locale ; aucune permission réseau, shell ou accès libre aux fichiers via plugin.","local":true,"windows":["main"],"permissions":["core:default"]}}

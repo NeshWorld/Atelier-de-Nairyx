@@ -1,0 +1,39 @@
+   Compiling windows-sys v0.61.2
+   Compiling rustc_version v0.4.1
+   Compiling winapi-util v0.1.11
+   Compiling softbuffer v0.4.8
+   Compiling dirs-sys v0.5.0
+   Compiling winreg v0.56.0
+   Compiling muda v0.20.0
+   Compiling window-vibrancy v0.8.1
+   Compiling dirs v7.0.0
+   Compiling same-file v1.0.6
+   Compiling embed-resource v3.0.12
+   Compiling walkdir v2.5.0
+   Compiling tauri-utils v2.10.2
+   Compiling tauri-winres v0.3.6 (C:\Users\apapi\L'atelier de Nairyx\src-tauri\vendor\tauri-winres)
+   Compiling tauri-runtime v2.12.2
+   Compiling tauri-runtime-wry v2.12.2
+   Compiling tauri v2.12.4
+   Compiling laboratoire-pedagogique-ia v0.1.0 (C:\Users\apapi\L'atelier de Nairyx\src-tauri)
+    Finished `test` profile [unoptimized] target(s) in 20.52s
+     Running unittests src\lib.rs (src-tauri\target\debug\deps\laboratoire_lib-096d0258d6c2e332.exe)
+
+running 6 tests
+test tests::examples_are_allowlisted ... ok
+test integration_tests::native_stop_kills_fixed_fixture_and_its_descendant ... ok
+test integration_tests::real_neuron_computes_weighted_sum ... ok
+test integration_tests::real_tokens_reconstruct_unicode_input ... ok
+test integration_tests::native_execute_refuses_sources_and_preserves_busy_owner ... ok
+test integration_tests::real_error_preserves_stderr_and_nonzero_exit_and_resets_busy ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.45s
+
+     Running unittests src\lib.rs (src-tauri\target\debug\deps\tauri_winres-7123ead0468e8461.exe)
+
+running 2 tests
+test helpers::path_regression::apostrophe_and_accents_remain_valid_in_rc_paths ... ok
+test tests::string_escaping ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

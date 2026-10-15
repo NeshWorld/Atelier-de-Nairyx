@@ -1,0 +1,15 @@
+test_authentic_stderr_and_exit (test_engine.EngineTests.test_authentic_stderr_and_exit) ... ok
+test_both_streams_are_drained_and_limited (test_engine.EngineTests.test_both_streams_are_drained_and_limited) ... ok
+test_cli_json_and_errors (test_engine.EngineTests.test_cli_json_and_errors) ... ok
+test_job_kills_descendant_on_timeout (test_engine.EngineTests.test_job_kills_descendant_on_timeout) ... ok
+test_neuron_computation (test_engine.EngineTests.test_neuron_computation) ... ok
+test_path_with_apostrophe_and_accent (test_engine.EngineTests.test_path_with_apostrophe_and_accent) ... ok
+test_reject_invalid_requests (test_engine.EngineTests.test_reject_invalid_requests) ... ok
+test_runner_under_parent_job (test_engine.EngineTests.test_runner_under_parent_job) ... ok
+test_timeout_is_bounded (test_engine.EngineTests.test_timeout_is_bounded) ... ok
+test_tokens_reconstruct_exact_phrase (test_engine.EngineTests.test_tokens_reconstruct_exact_phrase) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.372s
+
+OK

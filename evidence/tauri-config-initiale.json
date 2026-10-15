@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Laboratoire pédagogique IA",
+  "version": "0.1.0",
+  "identifier": "fr.nairyx.laboratoire-ia",
+  "build": {"beforeDevCommand":"npm run dev","devUrl":"http://127.0.0.1:1420","beforeBuildCommand":"npm run build","frontendDist":"../dist"},
+  "app": {"windows":[{"label":"main","title":"Laboratoire pédagogique IA — L’atelier de Nairyx","width":1440,"height":960,"minWidth":800,"minHeight":600,"backgroundColor":"#10191e"}],"security":{"csp":"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' asset: data:; font-src 'self'; connect-src ipc: http://ipc.localhost; object-src 'none'; base-uri 'self'; frame-src 'none'"}},
+  "bundle": {"active":true,"targets":["nsis"],"resources":{"../engine/probe.py":"engine/probe.py","../engine/runner.py":"engine/runner.py"},"windows":{"webviewInstallMode":{"type":"offlineInstaller"},"nsis":{"displayLanguageSelector":false,"languages":["French"],"installMode":"currentUser"}}}
+}

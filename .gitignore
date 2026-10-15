@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.local/
+.npm-cache/
+src-tauri/target/
+__pycache__/
+*.pyc
+test-results/
+playwright-report/
+*.tsbuildinfo
+
+/Installer-Laboratoire-IA-0.1.0.exe

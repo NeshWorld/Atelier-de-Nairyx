@@ -1,0 +1,39 @@
+
+> laboratoire-pedagogique-ia@0.1.0 tauri
+> tauri info
+
+
+[✘] Environment
+    - OS: Windows 10.0.26200 x86_64 (X64)
+    ✔ WebView2: 155.0.4283.45
+    ✘ Couldn't detect any Visual Studio or VS Build Tools instance with MSVC and SDK components. Download from https://aka.ms/vs/17/release/vs_BuildTools.exe
+    ✘ rustc: not installed!
+      Maybe you don't have rust installed! Visit https://rustup.rs/
+    ✘ Cargo: not installed!
+      Maybe you don't have rust installed! Visit https://rustup.rs/
+    ⚠ rustup: not installed!
+      If you have rust installed some other way, we recommend uninstalling it
+      then use rustup instead. Visit https://rustup.rs/
+    ⚠ Rust toolchain: couldn't be detected!
+      Maybe you don't have rustup installed? if so, Visit https://rustup.rs/
+    - node: 24.15.0
+    - pnpm: 11.25.0
+    - npm: 11.12.1
+
+[-] Packages
+    - tauri 🦀: 2
+    - tauri-build 🦀: No version detected
+    - wry 🦀: No version detected
+    - tao 🦀: No version detected
+    - @tauri-apps/api  ⱼₛ: 2.12.4
+    - @tauri-apps/cli  ⱼₛ: 2.12.3
+
+[-] Plugins
+
+[-] App
+    - build-type: bundle
+    - CSP: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' asset: data:; font-src 'self'; connect-src ipc: http://ipc.localhost; object-src 'none'; base-uri 'self'; frame-src 'none'
+    - frontendDist: ../dist
+    - devUrl: http://127.0.0.1:1420/
+    - framework: React
+    - bundler: Vite
